@@ -11,8 +11,6 @@ function executeThisCodeAfterFileLoaded(){
 		// console.log(badgeArray);			
 	}
 
-	
-
 }
 
 function executeThisCodeAfterFileFails(){
