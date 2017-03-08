@@ -25,7 +25,8 @@ img {
 }
 
 #profile-pic {
-	transform: translateX(350px) rotate(0deg) translateY(200px);
+	transform: translateX(365px) rotate(0deg) translateY(200px);
 	position: fixed;
-	height: 120%;
+	height: 1300px;
+	width: 790px;	
 }
