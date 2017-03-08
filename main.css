@@ -1,0 +1,32 @@
+body {
+	background-color: #F4F4F4;
+	overflow-y: hidden;
+}
+
+img {
+	display: inline-block;
+	height: 12%;
+	width: 20%;
+}
+
+#background {
+	margin: auto;
+	justify-content: space-around;
+	height:1000px;
+	width: 1000px;
+	z-index: -10;
+	position: fixed;
+}
+
+#treehouseContainer {
+	transform: translateX(144px) rotate(337deg) translateY(490px);
+	height: 300px;
+	width: 100px;
+}
+
+#profile-pic {
+	transform: translateX(365px) rotate(0deg) translateY(200px);
+	position: fixed;
+	height: 1300px;
+	width: 790px;	
+}
