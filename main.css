@@ -1,11 +1,12 @@
 body {
 	background-color: #F4F4F4;
+	overflow-y: hidden;
 }
 
 img {
 	display: inline-block;
 	height: 12%;
-	width: 17%;
+	width: 20%;
 }
 
 #background {
@@ -18,9 +19,13 @@ img {
 }
 
 #treehouseContainer {
-/*	transform: rotate(340deg);*/
-	transform: translateX(150px) rotate(335deg) translateY(450px);
-/*	transform-origin: 0 -500;*/
+	transform: translateX(144px) rotate(337deg) translateY(490px);
 	height: 300px;
 	width: 100px;
+}
+
+#profile-pic {
+	transform: translateX(350px) rotate(0deg) translateY(200px);
+	position: fixed;
+	height: 120%;
 }

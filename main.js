@@ -1,16 +1,17 @@
 var treehouseContainer = document.getElementById("treehouseContainer");
+var profilePic = document.getElementById("profile-pic");
 var badgeArray = [];
 
 function executeThisCodeAfterFileLoaded(){
 	var data = JSON.parse(this.responseText);
 
-	for (i=0; i < 47; i++) {
-		// console.log(data.badges[i].icon_url);
-		badgeArray += `<img src=" ${data.badges[i].icon_url}" alt="badges-here">;`
-		treehouseContainer.innerHTML = badgeArray;
-		// console.log(badgeArray);			
-	}
+	console.log(data);
+	profilePic.innerHTML = `<img src="${data.gravatar_url}" alt="pic-here">;`
 
+	for (i=0; i < 47; i++) {
+		badgeArray += `<img src="${data.badges[i].icon_url}" alt="badges-here">;`
+		treehouseContainer.innerHTML = badgeArray;		
+	}
 }
 
 function executeThisCodeAfterFileFails(){
