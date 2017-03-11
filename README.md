@@ -1,6 +1,6 @@
 # NSS My Treehouse Exercise
 
-![Splashpage]()
+![Splashpage](https://raw.githubusercontent.com/mitchellblom/my-treehouse/xar/treehouse.png)
 (I do not own the background image and only claim to use it creatively for practice)
 
 <hr>
